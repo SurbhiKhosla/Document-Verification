@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    height: 800px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    margin-bottom: 1 rem;
+    font-size: 1.5rem;
+    color: #303131;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+#document-type {
+    width: 50%; 
+    margin-bottom: 20px; 
+}
+
+.dropzone {
+    width: 100%;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #2b2d2e;
+    transition: background-color 0.3s ease;
+}
+
+.dropzone:hover {
+    background-color: #dfe4ea;
+}
+
+.dropzone .dz-message {
+    font-size: 1rem;
+    color: #007bff;
+}
+
+#validation-messages {
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
